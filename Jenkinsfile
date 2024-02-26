@@ -4,7 +4,7 @@ pipeline {
     stage ("SCM checkout") {
       steps {
         echo "cloning the code"
-        sh git clone "https://github.com/shreenidhissm/Project-Repo.git"
+        git clone "https://github.com/shreenidhissm/Project-Repo.git"
         }
        }
      stage ("build") {
